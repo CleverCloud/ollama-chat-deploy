@@ -9,6 +9,7 @@ clever login
 ## Init the project
 ```
 git clone https://github.com/CleverCloud/ollama-chat-deploy.git
+cd ollama-chat-deploy
 chmod +x *.sh
 ./project_init.sh
 ```
