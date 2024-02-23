@@ -1,5 +1,3 @@
+# Init of the git repository and add files from front-end project
 git init
-curl -L https://github.com/ivanfioravanti/chatbot-ollama/archive/refs/heads/main.tar.gz | tar -xz --strip-components=1
-
-clever create -t node myollama && clever scale --flavor L
-clever env import < .env
+curl -Ls https://github.com/ivanfioravanti/chatbot-ollama/archive/refs/heads/main.tar.gz | tar -xz --strip-components=1
